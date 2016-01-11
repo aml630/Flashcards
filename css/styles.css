@@ -1,13 +1,35 @@
+
 .center {
   text-align: center;
 }
+
+.container div {
+margin-left: auto;
+margin-right: auto;
+}
+
 
 .flashcard {
   border: 1px solid black;
   width: 50%;
   margin: 10px;
+  text-align: center;
 }
 
 .flashcard p {
   display: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.flashcard h2 {
+}
+
+.blue {
+  color: blue;
+  transition-duration: 2s;
+}
+
+.bigger {
+  font-size: 12pt;
 }
