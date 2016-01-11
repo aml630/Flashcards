@@ -1,75 +1,117 @@
 $(function(){
 
+$("h2").click(function () {
+  $("p").hide();
+  $("div").removeClass("bigger");
 
+})
 
   $("#h2java").click(function(){
     $("#java").toggle("slow");
-    $(".new").toggleCLass("bigger")
+    $(".new1").toggleClass("bigger")
 
   });
 
   $("#h2mod").click(function(){
-    $("#mod").toggle();
+    $("#mod").toggle("slow");
+    $(".new2").toggleClass("bigger")
+
   });
 
   $("#h2oper").click(function(){
-    $("#oper").toggle();
+    $("#oper").toggle("slow");
+    $(".new3").toggleClass("bigger")
+
   });
 
   $("#h2nan").click(function(){
-    $("#nan").toggle();
+    $("#nan").toggle("slow");
+    $(".new4").toggleClass("bigger")
+
   });
 
   $("#h2flash").click(function(){
-    $("#flash").toggle();
+    $("#flash").toggle("slow");
+    $(".new5").toggleClass("bigger")
+
   });
 
   $("#h2plus").click(function(){
-    $("#plus").toggle();
+    $("#plus").toggle("slow");
+    $(".new6").toggleClass("bigger")
+
   });
 
   $("#h2arg").click(function(){
-    $("#arg").toggle();
+    $("#arg").toggle("slow");
+    $(".new9").toggleClass("bigger")
+
   });
 
   $("#h2string").click(function(){
-    $("#string").toggle();
+    $("#string").toggle("slow");
+    $(".new10").toggleClass("bigger")
+
   });
 
   $("#h2chain").click(function(){
-    $("#chain").toggle();
+    $("#chain").toggle("slow");
+    $(".new11").toggleClass("bigger")
+
   });
 
   $("#h2esc").click(function(){
-    $("#esc").toggle();
+    $("#esc").toggle("slow");
+    $(".new12").toggleClass("bigger")
+
   });
 
   $("#h2alert").click(function(){
-    $("#alert").toggle();
+    $("#alert").toggle("slow");
+    $(".new13").toggleClass("bigger")
+
   });
 
   $("#h2comm").click(function(){
-    $("#comm").toggle();
+    $("#comm").toggle("slow");
+    $(".new14").toggleClass("bigger")
+
   });
 
   $("#h2bool").click(function(){
-    $("#bool").toggle();
+    $("#bool").toggle("slow");
+    $(".new15").toggleClass("bigger")
+
   });
 
   $("#h2undef").click(function(){
-    $("#under").toggle();
+    $("#undef").toggle("slow");
+    $(".new16").toggleClass("bigger")
+
   });
 
   $("#h2param").click(function(){
-    $("#param").toggle();
+    $("#param").toggle("slow");
+    $(".new17").toggleClass("bigger")
+
   });
 
   $("#h2funct").click(function(){
-    $("#funct").toggle();
+    $("#funct").toggle("slow");
+    $(".new7").toggleClass("bigger")
+
   });
 
   $("#h2method").click(function(){
-    $("#method").toggle();
+    $("#method").toggle("slow");
+    $(".new8").toggleClass("bigger")
+
+  });
+
+  $("#h2return").click(function(){
+    $("#return").toggle("slow");
+    $(".new18").toggleClass("bigger")
+
   });
 
   // $("h2").click(function () {
