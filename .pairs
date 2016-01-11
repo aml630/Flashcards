@@ -1,0 +1,7 @@
+pairs:
+  # <initials>: <Firstname> <Lastname>
+  al: Alex Larson
+  ml: Michael Lor  
+email_addresses:
+  al: alex.m.larson@gmail.com
+  ml: michael.vang.1985@gmail.com  

@@ -1,0 +1,9 @@
+.center {
+  text-align: center;
+}
+
+.flashcard {
+  border: 1px solid black;
+  width: 50%;
+  margin: 10px;
+}
