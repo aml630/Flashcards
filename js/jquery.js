@@ -114,11 +114,23 @@ $("h2").click(function () {
 
   });
 
+  // $(".click").click(function() {
+  //   $(".footer").append("<button class='click'>Click Me</button>");
+  // });
+
+  $(".click").click(function() {
+    $(".hiddenimg").slideToggle();
+  });
+
   // $("h2").click(function () {
   //   $("p").addClass("blue");
   //
   // })
   //
+
+$(".images").click(function() {
+  event.preventDefault();
+})
 
 
 
